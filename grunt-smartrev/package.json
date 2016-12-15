@@ -1,0 +1,76 @@
+{
+  "name": "grunt-smartrev",
+  "description": "A \"smart\" file versioner for production environments which takes inter-file dependencies into account automatically.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/disqus/grunt-smartrev",
+  "author": {
+    "name": "Disqus",
+    "email": "open-source@disqus.com",
+    "url": "https://github.com/disqus/grunt-smartrev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/disqus/grunt-smartrev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/disqus/grunt-smartrev/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "node -e \"require('grunt').cli()\" ./node_modules/grunt/lib/grunt.js test"
+  },
+  "dependencies": {
+    "css": "2.1.0",
+    "htmlparser2": "3.4.0",
+    "acorn": "0.4.2",
+    "escodegen": "1.1.0",
+    "lodash": "2.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.4.0",
+    "grunt-contrib-copy": "^0.4.1",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "^0.4.2",
+    "jshint": "2.3.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "asset",
+    "assetgraph",
+    "hash",
+    "rev",
+    "version"
+  ],
+  "gitHead": "e7780a8740148ea3daab5ba7a9ac29774caef99e",
+  "_id": "grunt-smartrev@0.1.2",
+  "_shasum": "c8ea7df264d336e9699f8e06e51d412f91dfa718",
+  "_from": "grunt-smartrev@>=0.1.1 <0.2.0",
+  "_npmVersion": "1.4.23",
+  "_npmUser": {
+    "name": "byk",
+    "email": "ben@byk.im"
+  },
+  "maintainers": [
+    {
+      "name": "byk",
+      "email": "ben@byk.im"
+    }
+  ],
+  "dist": {
+    "shasum": "c8ea7df264d336e9699f8e06e51d412f91dfa718",
+    "tarball": "http://registry.npmjs.org/grunt-smartrev/-/grunt-smartrev-0.1.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/grunt-smartrev/-/grunt-smartrev-0.1.2.tgz"
+}

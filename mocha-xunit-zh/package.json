@@ -1,0 +1,43 @@
+{
+  "name": "mocha-xunit-zh",
+  "version": "0.0.3",
+  "description": "\"first try out with customized xunit reporter mocha based on original mocha xunit reporter and xunit-file\"",
+  "main": "xunit-zh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuzana/mocha-xunit-zh.git"
+  },
+  "author": {
+    "name": "Zuzana Harcarikova"
+  },
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/zuzana/mocha-xunit-zh/issues"
+  },
+  "readme": "mocha-xunit-zh\r\n==============\r\n\r\nCustomized xunit reporter based on original mocha xunit reporter and xunit-file reporter to meet jenkins needs. Might delete it when I find more elegant solution.\r\n",
+  "readmeFilename": "README.md",
+  "_id": "mocha-xunit-zh@0.0.3",
+  "dist": {
+    "shasum": "79e57addebcc5151d717fa915cd9d5e3a28e01be",
+    "tarball": "http://registry.npmjs.org/mocha-xunit-zh/-/mocha-xunit-zh-0.0.3.tgz"
+  },
+  "_from": "mocha-xunit-zh@latest",
+  "_npmVersion": "1.3.5",
+  "_npmUser": {
+    "name": "zuzana",
+    "email": "zuza.har@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "zuzana",
+      "email": "zuz.har@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "79e57addebcc5151d717fa915cd9d5e3a28e01be",
+  "_resolved": "https://registry.npmjs.org/mocha-xunit-zh/-/mocha-xunit-zh-0.0.3.tgz",
+  "homepage": "https://github.com/zuzana/mocha-xunit-zh"
+}
